@@ -1,0 +1,17 @@
+{{ block title }}
+    Results
+{{ endblock }}
+
+{{ block content }}
+
+The survey 2 has been completed. Results are {{player.gender_new}} and {{player.age_new}}.
+
+<br>
+
+And for survey 1, the Results are {{player.participant.answers}}
+
+
+    {{ next_button }}
+{{ endblock }}
+
+

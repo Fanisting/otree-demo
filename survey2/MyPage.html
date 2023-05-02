@@ -1,0 +1,19 @@
+{{ block title }}
+    Page title
+{{ endblock }}
+{{ block content }}
+
+Your gender in the first survey: <b>{{ answers.0 }}</b>
+
+<br>
+
+Your age in the first survey: <b>{{ answers.1 }}</b>
+
+<br>
+
+Please re-select the answers. You can skip if you want the answer keep the same.
+
+    {{ formfields }}
+    {{ next_button }}
+
+{{ endblock }}
